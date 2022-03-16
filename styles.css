@@ -1,0 +1,205 @@
+:root{
+    --main-color: rgb(255, 123, 0);
+    --dark-gray: #2d3436;
+    --white: #ecf0f1;
+    --soft-gray: #636e72;
+}
+
+.nav-link, .navbar-brand, .nav-item{
+    color: var(--white);
+}
+
+.nav-link:hover{
+    color: var(--main-color);
+    transition: all 0.5s ease-out;
+}
+
+.nav-link:active{
+    color: var(--main-color) !important;
+}
+header{
+    background-image: url(img/slide-1.jpg);
+    height: 40rem;
+    background-size: cover;
+}
+
+.overlay{
+    background-color: rgba(46, 50, 54, 0.836);
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+}
+
+.caption{
+    text-transform: uppercase;
+}
+
+.btn{
+    transition: all 0.7s ease-in;
+    text-transform: uppercase;
+    width: 10rem;
+}
+
+.btn:hover{
+    transition: all 0.5s ease-out;
+    border: none;
+    background-color: var(--main-color);
+}
+
+
+/* Cards section */
+.fa-solid{
+    font-size: 30px;
+    color: var(--main-color);
+    border-radius: 50%;
+}
+
+
+.x{
+    width: 20%;
+    
+}
+
+
+/* 2nd section */
+
+.our-work .row img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 3rd section */
+
+.our-team{
+    color: var(--soft-gray);
+}
+
+.listMenu{
+    color: var(--soft-gray);
+}
+
+.our{
+    color:var(--soft-gray)
+}
+
+.listMenu img{
+    height: 20vh;
+    filter: grayscale(100%);
+}
+
+.our-team .listMenu img:hover {
+    filter: grayscale(0%);
+}
+
+.listMenu img:hover ~ .icon .fa-facebook{
+    color: #1877f2;
+}
+
+.listMenu img:hover ~ .icon .fa-twitter {
+    color: #1da1f2;
+}
+
+.listMenu img:hover ~ .icon .fa-youtube {
+    color: #ff0000;
+}
+.listMenu img:hover ~ .icon .fa-google {
+    color: #dd4b39;
+}
+
+.listMenu img:hover~ h6{
+    color: var(--main-color);
+}
+
+.paragraph{
+    width: 60%;
+    margin: auto;
+}
+
+h6{
+    text-transform: uppercase;
+}
+
+/* 4th section */
+.container-2{
+    background-image: url(img/contact-bg.jpg);
+    z-index: 0;
+    height: 80vh; 
+    background-size: cover;
+    z-index: 1; 
+}
+
+
+.overlay2 {
+    background-color: rgba(31, 32, 32, 0.836);
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+
+.container-3{
+    padding-top: 3%;
+    margin-bottom: 3%;
+    z-index: 4;
+}
+
+.container-4{
+    width: 60%;
+    
+}
+
+
+
+.input-group{
+    width: 40rem;
+    border-radius: 3%;
+}
+
+.icons{
+    width: 25%;
+    font-size: 20px;
+}
+.icons .fa-brands{
+    margin-left: 1%;
+}
+.icons .fa-facebook{
+    color: #1877f2;
+}
+.icons .fa-twitter{
+    color: #1da1f2;
+}
+
+.icons .fa-google{
+    color: #dd4b39;
+}
+
+.icons .fa-youtube{
+    color: #ff0000;
+}
+textarea{
+    border-radius: 3%;
+}
+.submit_button{
+    transition: all 0.5s ease-out;
+    border: none;
+    background-color: var(--main-color);
+}
+
+.form-control::-webkit-input-placeholder {
+    color: white;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #2d3436;
+    color: white;
+    padding: 00;
+    margin: 0;
+}
+
+
+
